@@ -1,0 +1,52 @@
+Installation of Django
+
+    Install python3 if not installed in your system ( according to configuration of your system and OS) from here . Try to download         the latest version of python it’s python3.6.4 this time.
+
+    Note- Installation of Django in Linux and Mac is similar, here i am showing it in windows for linux and mac just open terminal in place of command prompt and go through the following commands.
+    Install pip- 
+    
+    Open command prompt and enter following command-
+
+    Step-1: python -m pip install -U pip
+    
+    Install virtual environment- Enter following command in cmd-
+    
+    Step-2: pip install virtualenv
+    
+   Set Virtual environment- Setting up the virtual environment will allow you to edit the dependency which generally your system  wouldn’t allow. Follow these steps to setup virtual environment-
+
+    Create a virtual environment by giving this command in cmd-
+
+    Step-3: virtualenv env_site
+    
+  Change directory to env_site by this command-
+
+    Step-4: cd env_site
+    
+        Go to Script directory inside env_site and activate virtual environment-
+
+    Step-5: cd Script
+
+    Step-6: activate
+
+  Install Django- Install django by giving following command-
+
+    Step-7: pip install django
+
+  Return to the env_site directory-
+
+    Step-8: cd ..
+
+  Start a project by following command-
+
+    Step-9: django-admin startproject geeks_site
+
+  Change directory to geeks_site
+
+  Step-10: cd geeks_site
+
+  Start the server- Start the server by typing following command in cmd-
+
+  Step-11: python manage.py runserver
+
+To check wether server is running or not go to web browser and enter http://127.0.0.1:8000/ as url.
