@@ -1,0 +1,29 @@
+I am GOing to work with New DJango Crud Project. here is the following steps of creating and Editing:
+
+Create a folder and in the address bar of folder type cmd and go to command prompt. 
+
+STEP-1: django-admin startproject project_name
+
+STEP-2: cd project_name
+
+STEP-3: python manage.py startapp app_name
+
+STEP-4: visit http://127.0.0.1:8000/ and make sure if there is any error!! or not.
+
+well we have two folder, one is project folder and another one is app folder, for a making a crud app now we need to create
+the interface. and we are going to make a new folder named static and another folder named templates for html files inside app 
+folder. the STATIC folder consist of all images,css and js files.and TEMPLATES folder consist of all html files.
+
+STEP-5: 
+
+STEP-6: 
+
+STEP-7: 
+
+STEP-8: 
+
+STEP-9: 
+
+STEP-10: 
+
+STEP-11: 
